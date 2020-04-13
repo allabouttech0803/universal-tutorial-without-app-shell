@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "build-appshell": "ng build --prod",
+    "build": "ng build --prod",
     "serve-frontend": "node frontend.js",
     "deploy": "ng build --prod && npm run serve-frontend",
     "heroku-postbuild": "ng build --prod",
